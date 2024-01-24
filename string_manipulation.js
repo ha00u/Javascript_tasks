@@ -1,0 +1,11 @@
+let message = "Hello, World!";
+let substringHello = message.substring(0, 5);
+console.log("Substring 'Hello':", substringHello);
+let uppercaseMessage = message.toUpperCase();
+console.log("Uppercase Message:", uppercaseMessage);
+let containsWorld = message.toLowerCase().includes("world");
+console.log("Contains 'World' (case-insensitive):", containsWorld);
+let modifiedMessage = message.replace(/World/i, "Haider Sohail");
+console.log("Modified Message:", modifiedMessage);
+let charArray = Array.from(message).map(char => char);
+console.log("Array of Characters:", charArray);
